@@ -47,22 +47,29 @@ table {
 }
 
 /* LAYOUT STYLES */
+html {
+  background-image:url(../images/bg.png);
+  background-repeat:repeat;
+  background-position:center top;
+}
 
 body {
   font-size: 1em;
   line-height: 1.5; 
-  background-image:url(../bg3.png);
+  background-image:url(../images/bg1.png);
+  background-repeat:repeat-x;
+  background-position:center top;
   font-family:arial,helvetica,sans-serif;
   font-size:11pt;
   color: #6d6d6d;
 }
 
-a {
+/*a {
   color: #d5000d;
 }
 a:hover {
   color: #c5000c;
-}
+}*/
 
 header {
 	padding-top: 0px;
@@ -97,9 +104,8 @@ header h2 {
 
 
 #reply{
-	background-image:url(../td.png) !important;
+	background-image:url(../images/td.png) !important;
 	color:#054500;
-	background-color: #9F0;
 	background-repeat: repeat;
 	background-position: left top;
 	border:1px solid #e5d959;
@@ -261,7 +267,7 @@ h2 {
 } 
 
 h3 {
-  color: #d5000d;
+  color: rgb(5, 69, 0);
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 8px;
